@@ -1,6 +1,6 @@
 # welcome to black-mountain
 
-## title: Visualizing Black Mountain Writers
+## title: Visualizing Black Mountain College
 
 ## description:
 This is a final project for INFO-664 that uses Wikidata to generate data visualizations in the NetworkX library. It represents the pilot stage of a linked data project mapping relationships between individuals associated with Black Mountain College, an experimental arts college in North Carolina that ran from 1933-1957. This early phase culled a specific slice of the dataset — faculty and alumni identified as writers — for small-scale network visualization prototyping. The use of linked data to visualize creative networks is inspired by projects at the Semantic Lab at Pratt Institute, particularly Linked Jazz, an ongoing fifteen-year project representing the rich relationships that define the jazz community.
@@ -23,4 +23,4 @@ This project constitutes an early foray into mapping networks that emerged at Bl
 - BMC_faculty_wikidata.csv
 - BMC_alumni_refined.csv
 - BMC_faculty_refined.csv
-- networkx_bmw_visualization.ipynb
+- networkx_bmc_visualization.ipynb
