@@ -1,4 +1,4 @@
-# welcome to black-mountain-college
+# welcome to black-mountain project
 
 ## title: Visualizing Black Mountain College
 
