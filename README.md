@@ -19,11 +19,17 @@ Black Mountain College and the lives and careers of its faculty and alumni are l
 5. Imported **NetworkX** and created an empty graph object (G = nx.Graph()), then added NODES and EDGES (see documentation). *It turned out that the graph could be plotted from just the EDGES dataframe, which resulted in fewer bugs, so EDGES were commented out for the sake of simplifying this project. The metadata contained in the EDGES dataframe will become necessary in a later iteration, so was kept.*
 6. Plotted the graph using the **NetworkX** spring_layout, adding optional parameters from the library's documentation including labels, a title, and adjustments to the figure size
 
+<img width="1570" height="1580" alt="spring_layout: Individuals connected to Black Mountain College" src="https://github.com/user-attachments/assets/b69ca4fb-5154-45e0-8a2f-80149141853e" />
+
+
 ### GRAPH 2: Black Mountain Writers and Collaborators
 7. Created a new EDGES file (bmc_writers_edges-2tuple.csv) with connections discovered in "Black Mountain Poems" anthology (2019)
 8. Read bmc_writers_edges-2tuple.csv file as dataframe, then saved as tuples
 9. Created new graph entity (G2) and added writers-edges-tuple
 10. Plotted graph using kamada_kawai_layout, adjusting **kwargs for readability
+
+<img width="660" height="499" alt="kamanda_kawai_layout: Black Mountain Writers and Collaborators" src="https://github.com/user-attachments/assets/744aaf6b-786d-4336-b148-9b9deb1c9306" />
+
 
 ## further uses:
 This assignment's parameters limited the scope of the dataset to Wikidata, which encodes formalized and established attributes and relationships about public individuals. In pursuit of mapping the highly dynamic, nuanced, and interdisciplinary associations sparked at Black Mountain College, more rigorous research into primary and secondary sources, including correspondences, diaries, and oral histories, is needed. Next steps will involve adding node and edge labels to further encode identities and relationships; introducing interactive elements to facilitate searching; and conducting further research.
